@@ -4,10 +4,9 @@ import Questionnaire from "./Q"
 
 function App() {return (
 	<div className="App">
-		<Header />
+		<Header title="JSQuestionnaire w/React"/>
 		<Questionnaire />
 	</div>
 )}
 
 export default App;
- 
