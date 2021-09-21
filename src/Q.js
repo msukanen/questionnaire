@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 class Question {
     #text
@@ -45,7 +45,7 @@ class Question {
     }
 }
 
-export class Questionnaire extends React.Component {
+class Questionnaire extends React.Component {
     static #summaryID = -1
     static #questionData = [
         {t: 'Paljonko kello on', a:['Paljon', 'Aika vähän', 'Onhan se'] },
@@ -128,3 +128,5 @@ export class Questionnaire extends React.Component {
         })
     }
 }
+
+export default Questionnaire

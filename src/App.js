@@ -1,13 +1,13 @@
 import './App.css'
-import Questionnaire from "Q"
+import Header from './components/Header'
+import Questionnaire from "./Q"
 
 function App() {return (
 	<div className="App">
-		<header className="App-header">
-			JSQuestionnaire w/ React
-		</header>
+		<Header />
 		<Questionnaire />
 	</div>
 )}
 
 export default App;
+ 
