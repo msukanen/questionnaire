@@ -70,8 +70,8 @@ class Questionnaire extends React.Component {
         {t: 'Tämä on soitin', a:['Puhelin','Kitara','Kitaro'], p:2, c:1}
     ]
 
-    #qs    = []
-    #maxPts = 0
+    #qs    = [] // will contain all Question objects constructor'ed....
+    #maxPts = 0 // max points from the whole questionnaire
 
     constructor(props) {
         super(props)
